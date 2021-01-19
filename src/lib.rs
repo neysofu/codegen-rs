@@ -1,5 +1,5 @@
 #![deny(missing_debug_implementations, missing_docs)]
-#![doc(html_root_url = "https://docs.rs/codegen/0.1.1")]
+#![doc(html_root_url = "https://docs.rs/codegen-rs/0.1.4")]
 #![warn(rust_2018_idioms, clippy::nursery)]
 
 //! Provides a builder API for generating Rust code.
