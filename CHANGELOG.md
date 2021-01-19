@@ -1,7 +1,9 @@
 # <future version>
 
-### Changed
-- updated the crate to rust 2018 edition
+### Changes
+ - Updated to Rust 2018 edition.
+ - Added support for documentation on enum variants.
+ - Allowed modification of type definitions of enums via `type_def_mut()`.
 
 # 0.1.3 (May 9, 2020)
 

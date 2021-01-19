@@ -22,6 +22,11 @@ impl Enum {
         }
     }
 
+    /// Return a mutable reference to the type definition.
+    pub fn type_def_mut(&mut self) -> &mut TypeDef {
+        &mut self.type_def
+    }
+
     /// Returns a reference to the type.
     pub const fn ty(&self) -> &Type {
         &self.type_def.ty
