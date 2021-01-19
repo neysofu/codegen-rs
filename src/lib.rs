@@ -13,7 +13,7 @@
 //! For example:
 //!
 //! ```rust
-//! use codegen::Scope;
+//! use codegen_rs::Scope;
 //!
 //! let mut scope = Scope::new();
 //!

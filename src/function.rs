@@ -175,7 +175,7 @@ impl Function {
     /// Add an attribute to the function.
     ///
     /// ```
-    /// use codegen::Function;
+    /// use codegen_rs::Function;
     ///
     /// let mut func = Function::new("test");
     ///
@@ -189,7 +189,7 @@ impl Function {
 
     /// Specify an `extern` ABI for the function.
     /// ```
-    /// use codegen::Function;
+    /// use codegen_rs::Function;
     ///
     /// let mut extern_func = Function::new("extern_func");
     ///

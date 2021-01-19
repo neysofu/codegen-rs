@@ -1,17 +1,17 @@
 [package]
-name = "codegen"
+name = "codegen-rs"
 # When releasing to crates.io:
 # - Update html_root_url.
 # - Update CHANGELOG.md.
 # - Update doc URL.
-# - Create "v0.1.x" git tag.
+# - Create "vX.Y.Z" git tag.
 version = "0.1.3"
 license = "MIT"
-authors = ["Carl Lerche <me@carllerche.com>"]
+authors = ["Carl Lerche <me@carllerche.com>", "Filippo Costa <filippo.costa@protonmail.com>"]
 description = "Library for generating Rust code"
-documentation = "https://docs.rs/codegen/0.1.3/codegen"
-homepage = "https://github.com/carllerche/codegen"
-repository = "https://github.com/carllerche/codegen"
+documentation = "https://docs.rs/codegen-rs/"
+homepage = "https://github.com/neysofu/codegen-rs"
+repository = "https://github.com/neysofu/codegen-rs"
 readme = "README.md"
 edition = "2018"
 

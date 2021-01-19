@@ -1,26 +1,26 @@
-# Codegen
+# Codegen-rs
 
 Provides an builder API to assist in generating Rust code.
 
-[![Build Status](https://travis-ci.org/carllerche/codegen.svg?branch=master)](https://travis-ci.org/carllerche/codegen)
+[![Build Status](https://travis-ci.org/neysofu/codegen-rs.svg?branch=master)](https://travis-ci.org/neysofu/codegen-rs)
 
 More information about this crate can be found in the [crate documentation][dox]
 
-[dox]: https://docs.rs/codegen/0.1.3/codegen/
+[dox]: https://docs.rs/codegen-rs
 
 ## Installation
 
-To use `codegen`, first add this to your `Cargo.toml`:
+To use `codegen-rs`, first add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-codegen = "0.1.3"
+codegen-rs = "0.1.3"
 ```
 
 Next, add this to your crate:
 
 ```rust
-extern crate codegen;
+extern crate codegen_rs;
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ extern crate codegen;
 For example:
 
 ```rust
-use codegen::Scope;
+use codegen_rs::Scope;
 
 let mut scope = Scope::new();
 
@@ -46,8 +46,7 @@ println!("{}", scope.to_string());
 
 ## Non-goals
 
-`codegen` will not attempt to perform anything beyond basic formatting. For
-improved formatting, the generated code can be passed to `rustfmt`.
+`codegen-rs` will not attempt to perform anything beyond basic formatting. For improved formatting, the generated code can be passed to `rustfmt`.
 
 ## License
 
@@ -56,5 +55,5 @@ This project is licensed under the [MIT license](LICENSE).
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in `codegen` by you, shall be licensed as MIT, without any
+for inclusion in `codegen-rs` by you, shall be licensed as MIT, without any
 additional terms or conditions.
