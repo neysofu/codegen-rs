@@ -1,4 +1,6 @@
-# Codegen-rs
+# Codegen-rs (INACTIVE FORK)
+
+> This crate was originally born as a fork of https://github.com/carllerche/codegen. It is now unmaintained, please don't use.
 
 Provides an builder API to assist in generating Rust code.
 
